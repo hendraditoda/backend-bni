@@ -27,7 +27,7 @@ db.client = client;
 
 // MODELS
 db.users = require('./user.model.js')(client, Sequelize);
-db.users = require('./mutualfund.model.js')(client, Sequelize);
+db.mutualfund = require('./mutualfund.model.js')(client, Sequelize);
 // db.games = require('./game.model.js')(client, Sequelize);
 // db.scores = require('./score.model.js')(client, Sequelize);
 // db.videos = require('./video.model.js')(client, Sequelize);
